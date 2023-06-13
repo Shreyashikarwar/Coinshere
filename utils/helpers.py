@@ -277,11 +277,11 @@ def generate_otp() :
 
 
 
-TWILIO_ACCOUNT_SID = "ACd944e3189bf2367f38d4761eb55b1a13"
-TWILIO_AUTH_TOKEN  = "b9ff77ee29311245b4b238236d5b6d55"
+TWILIO_ACCOUNT_SID = "fgdyht6765hgfd54tjiuoly896"
+TWILIO_AUTH_TOKEN  = "h7qw8euho48998hhjfdhs87qwyaj"
 
 
-from_mobile_no     = "whatsapp:+14155238886"
+from_mobile_no     = "whatsapp:+91999999999"
 
 
 def broadcast_message_on_whatsapp(body):
@@ -292,7 +292,7 @@ def broadcast_message_on_whatsapp(body):
 
     client = Client(account_sid, auth_token)
     
-    to_mobile_no = "whatsapp:+917007970735"
+    to_mobile_no = "whatsapp:+9999999999"
 
     message = client.messages.create(
             body=body,
@@ -359,7 +359,7 @@ def send_sms(mobile_no):
   
     conn = ht.HTTPSConnection("api.msg91.com")
 
-    payload = '''{"flow_id": "6304c201dbe55e13a53c22f8","sender": "983742","recipients": [{"mobiles":"9935622978"}]}'''
+    payload = '''{"flow_id": "5436y5tyht65y65ts","sender": "33424","recipients": [{"mobiles":"54365436"}]}'''
 
 
     headers = {
